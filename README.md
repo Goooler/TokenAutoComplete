@@ -83,6 +83,9 @@ If you would like to get the most recent code in a jar, clone the project and ru
 
 You may also add the library as an Android Library to your project. All the library files live in ```library```.
 
+### R8 / ProGuard
+The specific rules are [already bundled](library/src/main/resources/META-INF/proguard/autocomplete.pro) into the JAR which can be interpreted by R8 automatically.
+
 Creating your auto complete view
 --------------------------------
 
